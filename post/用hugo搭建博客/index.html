@@ -16,14 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Junty" /><meta name="description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; 安装 HUGO HUGO 安装命令： 1 brew install" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Junty" /><meta name="description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 安装 HUGO HUGO 安装命令： brew install hugo 查" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.59.1 with theme even" />
+<meta name="generator" content="Hugo 0.60.0 with theme even" />
 
 
 <link rel="canonical" href="http://localhost:1313/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
@@ -39,25 +39,22 @@
 
 
 <meta property="og:title" content="Mac下用HUGO搭建博客" />
-<meta property="og:description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34; 安装 HUGO HUGO 安装命令： 1 brew install" />
+<meta property="og:description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 安装 HUGO HUGO 安装命令： brew install hugo 查" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2019-11-26T15:12:55+08:00" />
 <meta property="article:modified_time" content="2019-11-26T15:12:55+08:00" />
 <meta itemprop="name" content="Mac下用HUGO搭建博客">
-<meta itemprop="description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34; 安装 HUGO HUGO 安装命令： 1 brew install">
-
-
+<meta itemprop="description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 安装 HUGO HUGO 安装命令： brew install hugo 查">
 <meta itemprop="datePublished" content="2019-11-26T15:12:55&#43;08:00" />
 <meta itemprop="dateModified" content="2019-11-26T15:12:55&#43;08:00" />
-<meta itemprop="wordCount" content="348">
+<meta itemprop="wordCount" content="335">
 
 
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mac下用HUGO搭建博客"/>
-<meta name="twitter:description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34; 安装 HUGO HUGO 安装命令： 1 brew install"/>
+<meta name="twitter:description" content="官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 安装 HUGO HUGO 安装命令： brew install hugo 查"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -133,156 +130,68 @@
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#安装-homebrew-已安装请跳过">安装 Homebrew（已安装请跳过）</a></li>
-<li><a href="#安装-hugo">安装 HUGO</a></li>
-<li><a href="#创建博客">创建博客</a></li>
-<li><a href="#添加默认推荐主题">添加默认推荐主题</a></li>
-<li><a href="#创建博客文章">创建博客文章</a></li>
-<li><a href="#启动hugo服务器">启动HUGO服务器</a></li>
-<li><a href="#构建静态页面">构建静态页面</a></li>
-<li><a href="#更换主题">更换主题</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#-homebrew">安装 Homebrew（已安装请跳过）</a></li>
+        <li><a href="#-hugo">安装 HUGO</a></li>
+        <li><a href="#heading">创建博客</a></li>
+        <li><a href="#heading1">添加默认推荐主题</a></li>
+        <li><a href="#heading2">创建博客文章</a></li>
+        <li><a href="#hugo">启动HUGO服务器</a></li>
+        <li><a href="#heading3">构建静态页面</a></li>
+        <li><a href="#heading4">更换主题</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      
-
-<blockquote>
+      <blockquote>
 <p>官方配置地址 <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
 </blockquote>
-
 <p><strong>请在终端(Terminal)中输入以下命令</strong></p>
-
-<h3 id="安装-homebrew-已安装请跳过">安装 Homebrew（已安装请跳过）</h3>
-
+<h3 id="-homebrew">安装 Homebrew（已安装请跳过）</h3>
 <p>Homebrew 安装命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">/usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34;</pre></td></tr></table>
-</div>
-</div>
-<h3 id="安装-hugo">安装 HUGO</h3>
-
+<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre><h3 id="-hugo">安装 HUGO</h3>
 <p>HUGO 安装命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">brew install hugo</pre></td></tr></table>
-</div>
-</div>
-<p>查看HUGO版本命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">hugo version</pre></td></tr></table>
-</div>
-</div>
-<p>显示版本版本号证明安装成功</p>
-
-<h3 id="创建博客">创建博客</h3>
-
+<pre><code>brew install hugo
+</code></pre><p>查看HUGO版本命令：</p>
+<pre><code>hugo version
+</code></pre><p>显示版本版本号证明安装成功</p>
+<h3 id="heading">创建博客</h3>
 <p><strong>请用终端切换到需要安装博客的目录</strong></p>
-
 <p>创建博客文件夹命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">hugo new site blogname</pre></td></tr></table>
-</div>
-</div>
-<p><strong><em>blogname 名字请自定义</em></strong></p>
-
+<pre><code>hugo new site blogname
+</code></pre><p><em><strong>blogname 名字请自定义</strong></em></p>
 <p>创建成功之后进入创建的文件夹
 命令：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">cd blogname</pre></td></tr></table>
-</div>
-</div>
-<h3 id="添加默认推荐主题">添加默认推荐主题</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">git init
+<pre><code>cd blogname
+</code></pre><h3 id="heading1">添加默认推荐主题</h3>
+<pre><code>git init
 
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
-echo &#39;theme = &#34;ananke&#34;&#39; &gt;&gt; config.toml</pre></td></tr></table>
-</div>
-</div>
-<h3 id="创建博客文章">创建博客文章</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">hugo new posts/my-first-post.md</pre></td></tr></table>
-</div>
-</div>
-<p><strong><em>my-first-post 文件名请自定义</em></strong></p>
-
+echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+</code></pre><h3 id="heading2">创建博客文章</h3>
+<pre><code>hugo new posts/my-first-post.md
+</code></pre><p><em><strong>my-first-post 文件名请自定义</strong></em></p>
 <p>创建博客文章里的 <code>draft: true</code> 表示草稿，不会显示在博客里，请改为<code>false</code></p>
-
-<h3 id="启动hugo服务器">启动HUGO服务器</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">hugo server -D</pre></td></tr></table>
-</div>
-</div>
-<p>在浏览器输入 <a href="http://localhost:1313/">http://localhost:1313/</a> 就能显示本地博客页面</p>
-
-<h3 id="构建静态页面">构建静态页面</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">hugo -D</pre></td></tr></table>
-</div>
-</div>
-<p>构建出来的public文件夹可以放到服务器上部署</p>
-
-<h3 id="更换主题">更换主题</h3>
-
+<h3 id="hugo">启动HUGO服务器</h3>
+<pre><code>hugo server -D
+</code></pre><p>在浏览器输入 http://localhost:1313/ 就能显示本地博客页面</p>
+<h3 id="heading3">构建静态页面</h3>
+<pre><code>hugo -D
+</code></pre><p>构建出来的public文件夹可以放到服务器上部署</p>
+<h3 id="heading4">更换主题</h3>
 <p>官方推荐主题地址</p>
-
 <blockquote>
 <p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
 </blockquote>
-
 <p>更换主题请按照主题的使用说明使用，有些主题会有些坑。</p>
-
 <p><strong>本人使用的主题地址</strong></p>
-
 <blockquote>
 <p><a href="https://github.com/olOwOlo/hugo-theme-even">https://github.com/olOwOlo/hugo-theme-even</a></p>
 </blockquote>
@@ -307,7 +216,11 @@ echo &#39;theme = &#34;ananke&#34;&#39; &gt;&gt; config.toml</pre></td></tr></ta
 <footer class="post-footer">
       
       <nav class="post-nav">
-        
+        <a class="prev" href="/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">HTML入门笔记</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
         <a class="next" href="/post/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%BC%A0/">
             <span class="next-text nav-default">博客开张</span>
             <span class="next-text nav-mobile">下一篇</span>

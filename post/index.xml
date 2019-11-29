@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 15:12:55 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 13:18:08 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>1</title>
+      <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Fri, 29 Nov 2019 13:18:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <description>常用标签学习 a 标签的用法 作用： 外部页面跳转 内部页面锚点跳转 支持URL、文件、邮箱、电话等链接格式跳转 常用属性有： href - 指定跳转链接格式 网址 路径</description>
+    </item>
+    
+    <item>
+      <title>HTML入门笔记</title>
+      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 28 Nov 2019 16:14:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description>谁发明 HTML ？ HTML于1990年由蒂姆·伯纳斯-李（Timothy John Berners-Lee）发明的。 HTML首个版本 http://info.cern.ch/hypertext/WWW/MarkUp/Tags.html HTML初始化 Emmet</description>
+    </item>
     
     <item>
       <title>Mac下用HUGO搭建博客</title>
@@ -17,7 +35,7 @@
       <pubDate>Tue, 26 Nov 2019 15:12:55 +0800</pubDate>
       
       <guid>http://localhost:1313/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; 安装 HUGO HUGO 安装命令： 1 brew install</description>
+      <description>官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 安装 HUGO HUGO 安装命令： brew install hugo 查</description>
     </item>
     
     <item>
