@@ -6,10 +6,19 @@
     <description>Recent content on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Nov 2019 13:18:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 14:58:51 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSS盒模型</title>
+      <link>http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Mon, 02 Dec 2019 14:58:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</guid>
+      <description>#盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个</description>
+    </item>
     
     <item>
       <title>HTML常用标签</title>
