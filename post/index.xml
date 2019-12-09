@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2019 16:04:09 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 23:15:17 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>浅析URL</title>
+      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Sun, 08 Dec 2019 23:15:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</guid>
+      <description>URL 参考: https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E7%AC%A6 URL 全称统一资源定位符（Uniform Resource Locator） URL包含以下部分： 协议 域名 端口 路径 查询字符 锚点 例子： https://developer.mozilla.org/zh-CN/search?q=CSS https://developer.mozilla.org/zh-CN/docs/Glossary/CSS#%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99 https 指协议 developer.mozilla.org 指域名 443</description>
+    </item>
     
     <item>
       <title>浏览器渲染和CSS动画</title>
