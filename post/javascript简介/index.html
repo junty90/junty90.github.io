@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>CSS盒模型 - Junty&#39;s Blog</title>
+  <title>JavaScript简介 - Junty&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Junty" /><meta name="description" content="盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个区" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Junty" /><meta name="description" content="JavaScript 诞生 参考： https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2 http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html 1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigato" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.61.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
+<link rel="canonical" href="http://localhost:1313/post/javascript%E7%AE%80%E4%BB%8B/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,23 +38,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="CSS盒模型" />
-<meta property="og:description" content="盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个区" />
+<meta property="og:title" content="JavaScript简介" />
+<meta property="og:description" content="JavaScript 诞生 参考： https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2 http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html 1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigato" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/" />
-<meta property="article:published_time" content="2019-12-02T14:58:51+08:00" />
-<meta property="article:modified_time" content="2019-12-02T14:58:51+08:00" />
-<meta itemprop="name" content="CSS盒模型">
-<meta itemprop="description" content="盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个区">
-<meta itemprop="datePublished" content="2019-12-02T14:58:51&#43;08:00" />
-<meta itemprop="dateModified" content="2019-12-02T14:58:51&#43;08:00" />
-<meta itemprop="wordCount" content="308">
+<meta property="og:url" content="http://localhost:1313/post/javascript%E7%AE%80%E4%BB%8B/" />
+<meta property="article:published_time" content="2019-12-14T21:23:24+08:00" />
+<meta property="article:modified_time" content="2019-12-14T21:23:24+08:00" />
+<meta itemprop="name" content="JavaScript简介">
+<meta itemprop="description" content="JavaScript 诞生 参考： https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2 http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html 1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigato">
+<meta itemprop="datePublished" content="2019-12-14T21:23:24&#43;08:00" />
+<meta itemprop="dateModified" content="2019-12-14T21:23:24&#43;08:00" />
+<meta itemprop="wordCount" content="570">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CSS盒模型"/>
-<meta name="twitter:description" content="盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个区"/>
+<meta name="twitter:title" content="JavaScript简介"/>
+<meta name="twitter:description" content="JavaScript 诞生 参考： https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2 http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html 1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigato"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,10 +117,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">CSS盒模型</h1>
+      <h1 class="post-title">JavaScript简介</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-12-02 </span>
+        <span class="post-time"> 2019-12-14 </span>
         
         
       </div>
@@ -131,26 +131,51 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#heading">盒模型</a></li>
+    <li><a href="#javascript-">JavaScript 诞生</a></li>
+    <li><a href="#javascript--1">JavaScript 设计</a>
+      <ul>
+        <li><a href="#heading">设计缺陷</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <h2 id="heading">盒模型</h2>
-<p>在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 <em>margin, border, padding, and content</em> ，这4个部分组成，称为<strong>盒模型</strong>。</p>
-<p><em>引用MDN盒模型的图片：</em></p>
-<p><img src="https://mdn.mozillademos.org/files/8685/boxmodel-(3).png" alt="boxmodel-(3)"></p>
+      <h2 id="javascript-">JavaScript 诞生</h2>
+<blockquote>
+<p>参考：</p>
+<p><a href="https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2">https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html">http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html">http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html</a></p>
+</blockquote>
+<p>1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigator浏览器，仅用十天时间就把原型设计出来，因为网景公司希望搭上Java编程语言“热度”，所以改名为 <strong>JavaScript</strong>。</p>
+<p>1996年8月微软公司随IE3.0发布<strong>JScript</strong>语言用来对抗网景的 JavaScript，随后11月网景向ECMA（欧洲计算机制造商协会）提交语言标准。</p>
+<p>1997年6月 ECMA 以 JavaScript语言为基础在 ECMA-262 中制定了 <strong>ECMAScript</strong> 脚本语言规范。</p>
+<p>现在的 JavaScript 是以 ECMAScript 语言规范为标准的实现。</p>
+<h2 id="javascript--1">JavaScript 设计</h2>
+<p>由于网景公司要求布兰登·艾克设计的脚本语言要与Java语言足够相似，但它对Java不感兴趣，就借鉴了</p>
 <ul>
-<li><strong>Content box</strong>: 这个区域是用来显示内容，大小可以通过设置 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/width"><code>width</code></a> 和 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/height"><code>height</code></a>.</li>
-<li><strong>Padding box</strong>: 包围在内容区域外部的空白区域； 大小通过 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/padding"><code>padding</code></a> 相关属性设置。</li>
-<li><strong>Border box</strong>: 边框盒包裹内容和内边距。大小通过 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/border"><code>border</code></a> 相关属性设置。</li>
-<li><strong>Margin box</strong>: 这是最外面的区域，是盒子和其他元素之间的空白区域。大小通过 <a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin"><code>margin</code></a> 相关属性设置。</li>
+<li>C语言的基本语法</li>
+<li>Java语言的数据类型和内存管理</li>
+<li>Scheme语言，将函数提升到&quot;第一等公民&rdquo;（first class）的地位</li>
+<li>Self语言，使用基于原型（prototype）的继承机制</li>
 </ul>
-<p>在CSS中的<code>box-sizing</code>属性里定义盒模型的类型有<strong>内容盒子 content-box（默认值）</strong>、<strong>边框盒子 border-box</strong> 应用于块级盒子。</p>
-<p>尺寸计算公式：</p>
-<p>​	<strong>内容盒子</strong>的 <code>width</code> = 内容的宽度 ， <code>height</code> = 内容的高度</p>
-<p>​	<strong>边框盒子</strong>的 <em><code>width</code> = border + padding + 内容的宽度</em> ，<em><code>height</code> = border + padding + 内容的高度</em></p>
+<p>所以，<strong>Javascript语言实际上是两种语言风格的混合产物（简化的）函数式编程加上（简化的）面向对象编程</strong>。</p>
+<h3 id="heading">设计缺陷</h3>
+<p>由于 JavaScript 的设计比较仓促而导致设计不够完善的缺陷有：</p>
+<ol>
+<li>不适合开发大型程序</li>
+<li>非常小的标准库</li>
+<li>null和undefined</li>
+<li>全局变量难以控制</li>
+<li>自动插入行尾分号</li>
+<li>加号运算符</li>
+<li>NaN</li>
+<li>数组和对象的区分</li>
+<li>== 和 ===</li>
+<li>基本类型的包装对象</li>
+</ol>
 
     </div>
 
@@ -162,7 +187,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-12-02
+        2019-12-14
         
     </span>
   </p>
@@ -172,13 +197,9 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%92%8Ccss%E5%8A%A8%E7%94%BB/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">浏览器渲染和CSS动画</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/">
-            <span class="next-text nav-default">HTML常用标签</span>
+        
+        <a class="next" href="/post/%E6%B5%85%E6%9E%90url/">
+            <span class="next-text nav-default">浅析URL</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
