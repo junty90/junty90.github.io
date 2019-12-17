@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Dec 2019 21:23:24 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2019 10:22:03 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript语法</title>
+      <link>http://localhost:1313/post/javascript%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Tue, 17 Dec 2019 10:22:03 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/javascript%E8%AF%AD%E6%B3%95/</guid>
+      <description>1. 什么是表达式和语句 表达式：对变量或值的引用，或者是值和变量与运算符的组合。 语句：程序执行的指令，由一个或多个表达式组成。 2. 标识符的规则 标识</description>
+    </item>
     
     <item>
       <title>JavaScript简介</title>
