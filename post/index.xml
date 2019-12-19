@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Dec 2019 10:22:03 +0800</lastBuildDate>
+    <copyright>junty</copyright>
+    <lastBuildDate>Thu, 19 Dec 2019 11:51:12 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript对象基本用法</title>
+      <link>http://localhost:1313/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Thu, 19 Dec 2019 11:51:12 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <description>对象类型（Object）是一组“键值对”（key-value）的集合， 每个 key 都是对象的属性名（property）， 每个 value 都是对象的属性值。 1.</description>
+    </item>
     
     <item>
       <title>Javascript语法</title>
