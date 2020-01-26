@@ -2,112 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Junty&#39;s Blog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://junty90.github.io/post/</link>
     <description>Recent content in Posts on Junty&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>junty</copyright>
-    <lastBuildDate>Tue, 24 Dec 2019 13:51:44 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 23:22:31 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://junty90.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>JQuery 使用指南</title>
+      <link>https://junty90.github.io/post/jquery%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 26 Jan 2020 23:22:31 +0800</pubDate>
+      
+      <guid>https://junty90.github.io/post/jquery%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <description>使用前置： 首先引用 jQuery 文件， 创建 jQuery对象使用 $() 函数，CSS选择器作为参数。 jQuery 如何获取元素 1 2 3 4 $(document) //选择整个文档对象 $(&amp;#39;#myId&amp;#39;) //选择文档中</description>
+    </item>
+    
+    <item>
       <title>JS函数的执行时机</title>
-      <link>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</link>
+      <link>https://junty90.github.io/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</link>
       <pubDate>Tue, 24 Dec 2019 13:51:44 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</guid>
+      <guid>https://junty90.github.io/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/</guid>
       <description>定义一个函数并不会自动执行它。 当调用函数了才会执行。 1. 为什么如下代码会打印 6 个 6 1 2 3 4 5 6 7 8 let i = 0 for(i = 0; i&amp;lt;6; i++){ setTimeout(()=&amp;gt;{ console.log(i) },0) } //6 个 6 setTimeout 函数作用是</description>
     </item>
     
     <item>
       <title>JavaScript对象基本用法</title>
-      <link>http://localhost:1313/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <link>https://junty90.github.io/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
       <pubDate>Thu, 19 Dec 2019 11:51:12 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      <guid>https://junty90.github.io/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
       <description>对象类型（Object）是一组“键值对”（key-value）的集合， 每个 key 都是对象的属性名（property）， 每个 value 都是对象的属性值。 1.</description>
     </item>
     
     <item>
       <title>Javascript语法</title>
-      <link>http://localhost:1313/post/javascript%E8%AF%AD%E6%B3%95/</link>
+      <link>https://junty90.github.io/post/javascript%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Tue, 17 Dec 2019 10:22:03 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/javascript%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://junty90.github.io/post/javascript%E8%AF%AD%E6%B3%95/</guid>
       <description>1. 什么是表达式和语句 表达式：用来表示程序的变量或值，或者是值和变量与运算符的组合。 语句：是程序执行的指令，由一个或多个表达式组成。 2. 标识符的</description>
     </item>
     
     <item>
       <title>JavaScript简介</title>
-      <link>http://localhost:1313/post/javascript%E7%AE%80%E4%BB%8B/</link>
+      <link>https://junty90.github.io/post/javascript%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Sat, 14 Dec 2019 21:23:24 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/javascript%E7%AE%80%E4%BB%8B/</guid>
+      <guid>https://junty90.github.io/post/javascript%E7%AE%80%E4%BB%8B/</guid>
       <description>JavaScript 诞生 参考： https://zh.wikipedia.org/wiki/JavaScript#%E5%8E%86%E5%8F%B2 http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html http://www.ruanyifeng.com/blog/2011/06/10_design_defects_in_javascript.html 1995年网景公司请**Brendan Eich（布兰登·艾克）**设计一个脚本语言用来辅助Netscape Navigato</description>
     </item>
     
     <item>
       <title>浅析URL</title>
-      <link>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</link>
+      <link>https://junty90.github.io/post/%E6%B5%85%E6%9E%90url/</link>
       <pubDate>Sun, 08 Dec 2019 23:15:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%B5%85%E6%9E%90url/</guid>
+      <guid>https://junty90.github.io/post/%E6%B5%85%E6%9E%90url/</guid>
       <description>URL 参考: https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E7%AC%A6 URL 全称统一资源定位符（Uniform Resource Locator） URL包含以下部分： 协议 域名 端口 路径 查询字符 锚点 1 2 3 例子： https://developer.mozilla.org/zh-CN/search?q=CSS https://developer.mozilla.org/zh-CN/docs/Glossary/CSS#%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99 https 指协议 developer.mozilla.org 指</description>
     </item>
     
     <item>
       <title>浏览器渲染和CSS动画</title>
-      <link>http://localhost:1313/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%92%8Ccss%E5%8A%A8%E7%94%BB/</link>
+      <link>https://junty90.github.io/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%92%8Ccss%E5%8A%A8%E7%94%BB/</link>
       <pubDate>Fri, 06 Dec 2019 16:04:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%92%8Ccss%E5%8A%A8%E7%94%BB/</guid>
+      <guid>https://junty90.github.io/post/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E5%92%8Ccss%E5%8A%A8%E7%94%BB/</guid>
       <description>认识浏览器渲染原理 参考地址: https://developers.google.com/web/fundamentals/performance/critical-rendering-path 渲染顺序 根据 HTML 标记，构建 HTML 树（DOM） 根据 CSS 规则，构建 CSS 树（CSSDOM） DOM 和 CSSDOM 合并成渲染树（Render Tr</description>
     </item>
     
     <item>
       <title>CSS盒模型</title>
-      <link>http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://junty90.github.io/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Mon, 02 Dec 2019 14:58:51 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://junty90.github.io/post/css%E7%9B%92%E6%A8%A1%E5%9E%8B/</guid>
       <description>盒模型 在CSS的世界里，每个元素都会渲染成矩形“盒子”，每个盒子由 margin, border, padding, and content ，这4个部分组成，称为盒模型。 引用MDN盒模型的图片： Content box: 这个区</description>
     </item>
     
     <item>
       <title>HTML常用标签</title>
-      <link>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <link>https://junty90.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Fri, 29 Nov 2019 13:18:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      <guid>https://junty90.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
       <description>常用标签学习 a 标签的用法 作用： 外部页面跳转 内部页面锚点跳转 支持URL、文件、邮箱、电话等链接格式跳转 常用属性有： href - 指定跳转链接格式 网址 路径</description>
     </item>
     
     <item>
       <title>HTML入门笔记</title>
-      <link>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+      <link>https://junty90.github.io/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 28 Nov 2019 16:14:50 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://junty90.github.io/post/html%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
       <description>谁发明 HTML ？ HTML于1990年由蒂姆·伯纳斯-李（Timothy John Berners-Lee）发明的。 HTML首个版本 http://info.cern.ch/hypertext/WWW/MarkUp/Tags.html HTML初始化 Emmet</description>
     </item>
     
     <item>
       <title>Mac下用HUGO搭建博客</title>
-      <link>http://localhost:1313/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://junty90.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 26 Nov 2019 15:12:55 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://junty90.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>官方配置地址 https://gohugo.io/getting-started/quick-start/ 请在终端(Terminal)中输入以下命令 安装 Homebrew（已安装请跳过） Homebrew 安装命令： 1 /usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; 安装 HUGO HUGO 安装命令： 1 brew install</description>
     </item>
     
     <item>
       <title>博客开张</title>
-      <link>http://localhost:1313/post/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%BC%A0/</link>
+      <link>https://junty90.github.io/post/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%BC%A0/</link>
       <pubDate>Mon, 25 Nov 2019 22:59:49 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%BC%A0/</guid>
+      <guid>https://junty90.github.io/post/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%BC%A0/</guid>
       <description>Hello Word！ 欢迎光临， 我希望写一些文章啦。</description>
     </item>
     

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Javascript语法 - Junty&#39;s Blog</title>
+  <title>JQuery 使用指南 - Junty&#39;s Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Junty" /><meta name="description" content="1. 什么是表达式和语句 表达式：用来表示程序的变量或值，或者是值和变量与运算符的组合。 语句：是程序执行的指令，由一个或多个表达式组成。 2. 标识符的" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Junty" /><meta name="description" content="使用前置： 首先引用 jQuery 文件， 创建 jQuery对象使用 $() 函数，CSS选择器作为参数。 jQuery 如何获取元素 1 2 3 4 $(document) //选择整个文档对象 $(&amp;#39;#myId&amp;#39;) //选择文档中" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.62.2 with theme even" />
 
 
-<link rel="canonical" href="https://junty90.github.io/post/javascript%E8%AF%AD%E6%B3%95/" />
+<link rel="canonical" href="https://junty90.github.io/post/jquery%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,23 +38,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Javascript语法" />
-<meta property="og:description" content="1. 什么是表达式和语句 表达式：用来表示程序的变量或值，或者是值和变量与运算符的组合。 语句：是程序执行的指令，由一个或多个表达式组成。 2. 标识符的" />
+<meta property="og:title" content="JQuery 使用指南" />
+<meta property="og:description" content="使用前置： 首先引用 jQuery 文件， 创建 jQuery对象使用 $() 函数，CSS选择器作为参数。 jQuery 如何获取元素 1 2 3 4 $(document) //选择整个文档对象 $(&#39;#myId&#39;) //选择文档中" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://junty90.github.io/post/javascript%E8%AF%AD%E6%B3%95/" />
-<meta property="article:published_time" content="2019-12-17T10:22:03+08:00" />
-<meta property="article:modified_time" content="2019-12-17T10:22:03+08:00" />
-<meta itemprop="name" content="Javascript语法">
-<meta itemprop="description" content="1. 什么是表达式和语句 表达式：用来表示程序的变量或值，或者是值和变量与运算符的组合。 语句：是程序执行的指令，由一个或多个表达式组成。 2. 标识符的">
-<meta itemprop="datePublished" content="2019-12-17T10:22:03&#43;08:00" />
-<meta itemprop="dateModified" content="2019-12-17T10:22:03&#43;08:00" />
-<meta itemprop="wordCount" content="468">
+<meta property="og:url" content="https://junty90.github.io/post/jquery%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" />
+<meta property="article:published_time" content="2020-01-26T23:22:31+08:00" />
+<meta property="article:modified_time" content="2020-01-26T23:22:31+08:00" />
+<meta itemprop="name" content="JQuery 使用指南">
+<meta itemprop="description" content="使用前置： 首先引用 jQuery 文件， 创建 jQuery对象使用 $() 函数，CSS选择器作为参数。 jQuery 如何获取元素 1 2 3 4 $(document) //选择整个文档对象 $(&#39;#myId&#39;) //选择文档中">
+<meta itemprop="datePublished" content="2020-01-26T23:22:31&#43;08:00" />
+<meta itemprop="dateModified" content="2020-01-26T23:22:31&#43;08:00" />
+<meta itemprop="wordCount" content="388">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Javascript语法"/>
-<meta name="twitter:description" content="1. 什么是表达式和语句 表达式：用来表示程序的变量或值，或者是值和变量与运算符的组合。 语句：是程序执行的指令，由一个或多个表达式组成。 2. 标识符的"/>
+<meta name="twitter:title" content="JQuery 使用指南"/>
+<meta name="twitter:description" content="使用前置： 首先引用 jQuery 文件， 创建 jQuery对象使用 $() 函数，CSS选择器作为参数。 jQuery 如何获取元素 1 2 3 4 $(document) //选择整个文档对象 $(&#39;#myId&#39;) //选择文档中"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -117,10 +117,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Javascript语法</h1>
+      <h1 class="post-title">JQuery 使用指南</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-12-17 </span>
+        <span class="post-time"> 2020-01-26 </span>
         
         
       </div>
@@ -129,35 +129,86 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#1-什么是表达式和语句">1. 什么是表达式和语句</a></li>
-        <li><a href="#2-标识符的规则">2. 标识符的规则</a></li>
-        <li><a href="#3-if-else-语句">3. if else 语句</a></li>
-        <li><a href="#4-while-for-语句">4. while for 语句</a></li>
-        <li><a href="#5-break-continue-语句">5. break continue 语句</a></li>
-        <li><a href="#6-label-语句">6. label 语句</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
-      <h3 id="1-什么是表达式和语句">1. 什么是表达式和语句</h3>
-<p><strong>表达式</strong>：用来表示程序的变量或值，或者是值和变量与运算符的组合。</p>
-<p><strong>语句</strong>：是程序执行的指令，由一个或多个表达式组成。</p>
-<h3 id="2-标识符的规则">2. 标识符的规则</h3>
-<p><strong>标识符</strong>：指变量名、函数名、属性名、参数名。</p>
-<p><strong>标识符规则</strong>：</p>
+      <blockquote>
+<p>使用前置：
+首先引用 jQuery 文件，
+创建 jQuery对象使用 $() 函数，CSS选择器作为参数。</p>
+</blockquote>
 <ol>
-<li>第一个字符必须是字母（Unicode字符、中文）、下划线（_）或美元符号（$）</li>
-<li>其它字符可以是以上所说的（字母、下划线、美元符号）或数字</li>
-</ol>
-<h3 id="3-if-else-语句">3. if else 语句</h3>
-<p><strong>if else语句</strong>：流控制语句，表示如果&hellip;那么&hellip;</p>
+<li>
+<p>jQuery 如何获取元素</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"> $(document) //选择整个文档对象
+ $(&#39;#myId&#39;) //选择文档中ID为myId的一个元素
+ $(&#39;div.myClass&#39;) // 选择文档中类为myClass的所有div元素     
+ $(&#39;img[alt]&#39;) // 选择带有alt属性的所有图像元素
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>jQuery 如何移动元素</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"> $(&#39;div&#39;).next(&#39;p&#39;); //选择div元素后面的第一个p元素
+ $(&#39;div&#39;).parent(); //选择div元素的父元素
+ $(&#39;div&#39;).closest(&#39;form&#39;); //选择离div最近的那个form父元素
+ $(&#39;div&#39;).children(); //选择div的所有子元素
+ $(&#39;div&#39;).siblings(); //选择div的同级元素
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>jQuery 的链式操作是怎样的</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">// 多个方法连接使用
+ $(&#39;div#app&#39;) //选择id为app的div元素
+    .parent() //取得它的父元素
+    .addClass(&#39;highlight&#39;) //为该单元格添加hightlight类
+    .end() //恢复到id为app的div元素的父元素
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>jQuery 如何创建元素</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">// 直接输入HTML元素
+ $(&#39;&lt;p&gt;Hello&lt;/p&gt;&#39;)
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>jQuery 如何修改元素的属性</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -168,74 +219,23 @@
 </span><span class="lnt">6
 </span><span class="lnt">7
 </span><span class="lnt">8
+</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">推荐使用语法</span><span class="err">：</span>
-<span class="k">if</span> <span class="p">(</span><span class="nx">表达式</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">语句1</span>
-<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-  <span class="nx">语句2</span>
-<span class="p">}</span>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"> //.css()方法
+ // 单个属性及其值
+ $(&#39;div&#39;).css(&#39;color&#39;, &#39;red&#39;)
+    
+ // 属性-值对构成的对象
+ $(&#39;div&#39;).css({
+    color: &#39;white&#39;,
+    background: &#39;black&#39;
+ })
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
 
-<span class="c1">// {} 在语句只有一句的时候可以省略，但不建议。
-</span></code></pre></td></tr></table>
-</div>
-</div><h3 id="4-while-for-语句">4. while for 语句</h3>
-<p><strong>while 语句</strong>：循环语句，表示当&hellip;时</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">语法</span><span class="err">：</span>
-<span class="k">while</span> <span class="p">(</span><span class="p">)</span> <span class="p">{</span>
-	<span class="nx">语句</span>       
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>for 语句</strong>：while语句的简写版</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">语法</span><span class="err">：</span>
-<span class="k">for</span> <span class="p">(</span><span class="nx">语句1</span><span class="p">;</span> <span class="nx">判断表达式</span><span class="p">;</span> <span class="nx">语句2</span><span class="p">)</span> <span class="p">{</span>
-	<span class="nx">循环体</span>
-<span class="p">}</span>
-
-<span class="cm">/** 先执行语句1
-</span><span class="cm">	然后判断表达式
-</span><span class="cm">	如果为真，执行循环体，然后执行语句2
-</span><span class="cm">	如果为假，退出循环
-</span><span class="cm">**/</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="5-break-continue-语句">5. break continue 语句</h3>
-<p><strong>break、continue 语句</strong>：用于循环体中，退出循环体、跳过当前循环体</p>
-<h3 id="6-label-语句">6. label 语句</h3>
-<p><strong>label 语句</strong>：在代码中添加标签，以便将来使用。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">语法</span><span class="err">：</span><span class="nx">label</span><span class="o">:</span> <span class="nx">statement</span>
-</code></pre></td></tr></table>
-</div>
-</div>
     </div>
 
     <div class="post-copyright">
@@ -246,7 +246,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-12-17
+        2020-01-26
         
     </span>
   </p>
@@ -256,13 +256,9 @@
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/javascript%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">JavaScript对象基本用法</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/javascript%E7%AE%80%E4%BB%8B/">
-            <span class="next-text nav-default">JavaScript简介</span>
+        
+        <a class="next" href="/post/js%E5%87%BD%E6%95%B0%E7%9A%84%E6%89%A7%E8%A1%8C%E6%97%B6%E6%9C%BA/">
+            <span class="next-text nav-default">JS函数的执行时机</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
